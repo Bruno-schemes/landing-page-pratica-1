@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Sarala&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+
+    body{
+        font-family:'Playfair Display', serif ;
+    }
+
+      .cabecalho{
+        height: 140px;
+        
+    }
+    .comunidade{
+        
+        
+        border-bottom: 1px solid white;
+        width: 540px;
+        height: 73px;
+        margin-left: 35%;
+    }
+    .comunidade h1{
+        
+        border-left: 1px solid white;
+        padding-bottom: 28px;
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+
+    body{
+        background: #A770EF;  
+        background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  
+        background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); 
+
+    }
+
+    .linha1{
+        width: 10px;
+        height: 20px;
+        background-color: rgba(0, 128, 0, 0);
+    }
+
+    /* test */
+
+    .comunidade{
+            position: relative;
+            animation: myfirsttest 5s;
+            animation-direction: alternate;
+            color: white;
+}
+
+@keyframes myfirsttest {
+  0%   { border-bottom:1px solid rgba(160, 156, 156, 0) ;color: #17161800; left: 600px; top: 0px;}
+  40%  { left: 0px; top: 0px;}
+
+}
+
+
+/*--------MAIN-------*/
+
+main{
+    color: white;
+}
+.section1{
+    
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 500px;
+    position: relative;
+    animation: section1 10s;
+    animation-direction: alternate;
+
+}
+
+@keyframes section1{
+    0% {
+        color: #ffffff0c;;right:500px; top: 0px;
+    }
+    40% {
+       color: white; right: 0px; ;
+    }
+}
+
+.section2{
+    
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    padding: 0 40px;
+    margin-left: 500px;
+    animation: section2 10s;
+    position: relative;
+    animation-direction: alternate;
+}
+
+
+@keyframes section2{
+    0% { opacity: 0.1 ;color: #ffffff0c; left: 500px; }
+    40%{  opacity: none;color: white; left: 0px;}
+}
+
+
+ .wall{
+    padding: 40px;
+    height: 300px;
+    
+    border-radius: 200px;
+  }
+</style>
+<body>
+    <header class="cabecalho">
+        <div class="linha1"></div>
+        <div class="comunidade">
+            
+            <h1>Comunidade</h1>
+            
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section1">
+        <h2 style="padding:30px ;">Lorem Ipsum</h2>
+         <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu lacus in nunc facilisis efficitur. Ut gravida est non congue volutpat. Aenean quis sem neque. Nulla accumsan eget velit sit amet tincidunt. Phasellus pellentesque, est id bibendum tincidunt, sem ligula tempus ipsum, ac elementum eros diam ullamcorper erat. Nulla a ex ullamcorper, aliquam risus a, condimentum velit. Nam malesuada, enim vel ultricies dictum, odio urna vehicula ipsum, a ornare nisl odio non eros. Quisque vulputate tellus vitae ipsum cursus, eget gravida turpis congue.</p>
+            
+        </section>
+        <section class="section2">
+            <p>Duis sollicitudin elit non tempor tempus. Nullam eu libero cursus, dapibus turpis vitae, gravida ligula. Cras ut aliquam purus, venenatis semper lectus. Suspendisse posuere vel elit sed condimentum. Maecenas eu elementum tellus. Aenean in molestie augue, at pellentesque sapien. Praesent commodo tempus nulla sit amet volutpat. Nullam vitae molestie nunc. Integer facilisis felis non arcu luctus, nec ornare orci luctus. Aliquam erat volutpat. Sed tristique, ex ut placerat auctor, enim nisi euismod arcu, ac semper diam metus et erat. Etiam sit amet nibh dapibus, scelerisque massa nec, dapibus elit. Proin hendrerit luctus tortor elementum porta. Morbi commodo ante ut est blandit sodales.</p>
+            <img class="wall"src="wallpaper.PNG">
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
